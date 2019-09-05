@@ -9,3 +9,12 @@ sample1/
     exceptions/           contains local exceptions 
     helpers/              contains helpers classes
 ```
+## Code sample 2
+### Comma separated value validator
+Example shows custom validator for Yii2. It implemented according to Yii2 validators workflow. It allows to validate string value that contains comma separated values and returns array as result.
+#### DIRECTORY STRUCTURE
+```
+sample2/                  
+    exceptions/           contains local exceptions 
+    validators/           contains validators classes
+```
