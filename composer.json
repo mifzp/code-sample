@@ -1,0 +1,31 @@
+{
+    "name": "mifzp/code-sample",
+    "description": "Code sample project",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2.0",
+        "yiisoft/yii2": "~2.0.6",
+        "yiisoft/yii2-bootstrap": "~2.0.0"
+    },
+    "require-dev": {
+
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false,
+            "installer-paths": {
+                "npm-asset-library": "vendor/npm",
+                "bower": "vendor/bower-asset"
+            }
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
